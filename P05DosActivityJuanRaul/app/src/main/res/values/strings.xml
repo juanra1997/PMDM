@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">P05DosActivityJuanRaul</string>
+    <string name="primer_activity">Primer activity</string>
+    <string name="segundo_activity">Segundo activity</string>
+    <string name="TXTsegundo_activity">Segundo Activity</string>
+    <string name="TXTprimero_activity">Primer Activity</string>
 </resources>
