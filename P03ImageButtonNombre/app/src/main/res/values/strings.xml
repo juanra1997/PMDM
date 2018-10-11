@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P03ImageButtonNombre</string>
+    <string name="ibMano">Boton Mano</string>
+    <string name="ibLibro">Boton Libro</string>
+</resources>

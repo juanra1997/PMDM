@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">P001Calculadora</string>
+
+    //Todo en español
+    <string name="sETitulo"> Calculadora </string>
+    <string name="sEOperando1"> Primer operando... </string>
+    <string name="sEOperando2"> Segundo operando... </string>
+    <string name="sESumar"> Sumar </string>
+    <string name="sERestar"> Restar </string>
+    <string name="sEResultado"> Resultado: </string>
+    <string name="sECambiar"> Cambiar idioma </string>
+    <string name="sEIdioma"> Español </string>
+    <string name="sECalcular"> Calcular </string>
+
+    //Todo en aleman
+    <string name="sATitulo"> Rechner </string>
+    <string name="sAOperando1"> Erster Operand... </string>
+    <string name="sAOperando2"> Zweiter Operand... </string>
+    <string name="sASumar"> summieren </string>
+    <string name="sARestar"> Subtrahieren </string>
+    <string name="sAResultado"> Ergebnis: </string>
+    <string name="sACambiar"> Sprache ändern </string>
+    <string name="sAIdioma"> Deutsch </string>
+    <string name="sACalcular"> Berechnen </string>
+
+    //Todo en KURDO
+    <string name="sKTitulo"> Calculator </string>
+    <string name="sKOperando1"> Operasyona yekemîn ... </string>
+    <string name="sKOperando2"> Operasyona duyem... </string>
+    <string name="sKSumar"> Add </string>
+    <string name="sKRestar"> Veşêre </string>
+    <string name="sKResultado"> Encam: </string>
+    <string name="sKCambiar"> ziman biguherînin </string>
+    <string name="sKIdioma"> Kurdî </string>
+    <string name="sKCalcular"> Hesab bikin </string>
+
+    //Todo en JAPO
+    <string name="sJTitulo"> 電卓 </string>
+    <string name="sJOperando1"> 最初のオペランド... </string>
+    <string name="sJOperando2"> 2番目のオペランド... </string>
+    <string name="sJSumar"> 追加 </string>
+    <string name="sJRestar"> 減算 </string>
+    <string name="sJResultado"> 結果： </string>
+    <string name="sJCambiar"> 言語を変更する </string>
+    <string name="sJIdioma"> 日本 </string>
+    <string name="sJCalcular"> 計算する </string>
+
+    //-----------------------------------------------
+    <string name="calculadora">Calculadora</string>
+    <string name="sumar">SUMAR</string>
+    <string name="restar">RESTAR</string>
+    <string name="epanol">Epañol</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="kurd">Kurdî</string>
+    <string name="日本">日本</string>
+</resources>

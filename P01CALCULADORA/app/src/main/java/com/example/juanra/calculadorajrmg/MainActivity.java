@@ -39,4 +39,22 @@ public class MainActivity extends AppCompatActivity {
         //tvres.setText(cadRes);
         tvres.setText(suma);
     }
+
+    public void restar (View view){
+
+        //Sumar los valores de los operandos
+        int num1, num2, suma;
+        String valor1, valor2, cadRes;
+
+        valor1=etop1.getText().toString();
+        valor2=etop2.getText().toString();
+
+        num1=Integer.parseInt(valor1);
+        num2=Integer.parseInt(valor2);
+
+        suma=num1-num2;
+        //cadRes=String.valueOf(suma);
+        //tvres.setText(cadRes);
+        tvres.setText(suma);
+    }
 }
