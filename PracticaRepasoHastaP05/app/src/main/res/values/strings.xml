@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PracticaRepasoJuanRaulMellado</string>
+    <string name="IntroducirUsuario">Introduce aqui el usuario</string>
+    <string name="IntroducirContrasenna">Introduce aqui la contraseña</string>
+    <string name="PideUsuario">Usuario:</string>
+    <string name="PideContrasenna">Contraseña:</string>
+    <string name="todo">TODO</string>
+    <string name="bAnterior">Anterior</string>
+    <string name="enero">Enero</string>
+    <string name="fegrero">Febrero</string>
+    <string name="marzo">Marzo</string>
+    <string name="abril">Abril</string>
+    <string name="textview">Selecciona</string>
+
+</resources>

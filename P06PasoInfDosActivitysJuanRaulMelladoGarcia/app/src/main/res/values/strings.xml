@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">P06PasoInfDosActivitysJuanRaulMelladoGarcia</string>
+    <string name="etNombre">Introduzca su nombre</string>
+    <string name="bEnviar">Enviar nombre</string>
+    <string name="bRegresar">Regresar</string>
+</resources>
