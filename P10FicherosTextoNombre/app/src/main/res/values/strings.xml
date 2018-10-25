@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">P10Ficheros TextoNombre</string>
+    <string name="sNombreFichero">Introduzca nombre del fichero</string>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RadioGroup
+        android:id="@+id/GPelos"
+        android:layout_width="114dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre">
+
+        <RadioButton
+            android:id="@+id/moreno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/moreno" />
+
+        <RadioButton
+            android:id="@+id/rubio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rubio" />
+
+        <RadioButton
+            android:id="@+id/pelirrojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pelirrojo" />
+
+        <RadioButton
+            android:id="@+id/castanno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/casta_o" />
+
+        <RadioButton
+            android:id="@+id/calvo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sin_pelo" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/textview"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GPelos" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/telefono"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/tvTelefono"
+        app:layout_constraintTop_toBottomOf="@+id/GPelos"
+        android:autofillHints="" />
+
+    <ListView
+        android:id="@+id/lvDias"
+        android:layout_width="170dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toEndOf="@+id/GPelos"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+    <ImageButton
+        android:id="@+id/ibGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="TODO"
+        android:onClick="guardar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTelefono"
+        app:srcCompat="@mipmap/guardar" />
+
+    <ImageButton
+        android:id="@+id/ibVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:onClick="volver"
+        app:layout_constraintStart_toEndOf="@+id/ibGuardar"
+        app:layout_constraintTop_toBottomOf="@+id/etTelefono"
+        app:srcCompat="@mipmap/volver"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="108dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/color_de_pelo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDia"
+        android:layout_width="85dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="116dp"
+        android:text="@string/dia_para_cita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvvista"
+        android:layout_width="85dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

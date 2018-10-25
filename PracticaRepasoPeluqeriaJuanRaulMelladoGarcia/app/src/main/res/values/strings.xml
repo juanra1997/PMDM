@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PracticaRepasoPeluqeriaJuanRaulMelladoGarcia</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contra">Contraseña</string>
+    <string name="bAccess">Acceder</string>
+    <string name="bReg">Registrar</string>
+    <string name="textview">Telefono</string>
+    <string name="color_de_pelo">Color de pelo</string>
+    <string name="dia_para_cita">Dia para cita</string>
+    <string name="telefono">Telefono</string>
+    <string name="sin_pelo">Sin pelo</string>
+    <string name="moreno">Moreno</string>
+    <string name="rubio">Rubio</string>
+    <string name="pelirrojo">Pelirrojo</string>
+    <string name="casta_o">Castaño</string>
+</resources>
