@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">P11Repaso2JuanRaulMelladoGarcia</string>
+    <string name="sCodigo">Nombre del juego</string>
+    <string name="sPrecio">Precio</string>
+    <string name="sDescripcion">Opinion</string>
+    <string name="sRegistrar">REGISTRAR</string>
+    <string name="sBuscar">BUSCAR</string>
+    <string name="sModificar">MODIFICAR</string>
+    <string name="sEliminar">ELIMINAR</string>
+    <string name="Color">Nota</string>
+    <string name="Recomendable">¿Recomendable?</string>
+    <string name="Productos">Productos</string>
+    <string name="volver">Volver</string>
+    <string name="listar">Listar todos</string>
+</resources>

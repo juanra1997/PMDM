@@ -150,4 +150,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:onClick="actvty3"
+        android:text="Datos"
+        app:layout_constraintStart_toEndOf="@+id/ibGuardar"
+        app:layout_constraintTop_toBottomOf="@+id/etTelefono" />
+
 </android.support.constraint.ConstraintLayout>

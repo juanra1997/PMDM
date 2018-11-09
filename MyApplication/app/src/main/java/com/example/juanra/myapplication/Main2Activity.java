@@ -1,6 +1,7 @@
 package com.example.juanra.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -147,5 +148,12 @@ public class Main2Activity extends AppCompatActivity {
     public void volver(View view){
 
         finish();
+    }
+
+    public void actvty3(View view){
+
+        Intent i = new Intent(this, Main3Activity.class);
+        i.putExtra("usuario", dato);
+        startActivity(i);
     }
 }

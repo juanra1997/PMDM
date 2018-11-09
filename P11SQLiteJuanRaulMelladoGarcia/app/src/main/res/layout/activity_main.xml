@@ -14,13 +14,13 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/sCodigo"
-        android:inputType="textPersonName"
+        android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etDescripcion"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="11dp"
@@ -32,50 +32,55 @@
 
     <EditText
         android:id="@+id/etPrecio"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:hint="@string/sPrecio"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/bRegistrar"
         app:layout_constraintTop_toBottomOf="@+id/etDescripcion"
         tools:layout_editor_absoluteX="8dp" />
 
     <Button
         android:id="@+id/bRegistrar"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:onClick="RegistrarClick"
         android:text="@string/sRegistrar"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPrecio" />
 
     <Button
         android:id="@+id/bBuscar"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="BuscarClick"
         android:text="@string/sBuscar"
-        app:layout_constraintTop_toBottomOf="@+id/bRegistrar"
-        tools:layout_editor_absoluteX="8dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bRegistrar" />
 
     <Button
         android:id="@+id/bModificar"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="ModificarClick"
         android:text="@string/sModificar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bBuscar" />
 
     <Button
         android:id="@+id/bEliminar"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="EliminarClick"
         android:text="@string/sEliminar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bModificar" />
