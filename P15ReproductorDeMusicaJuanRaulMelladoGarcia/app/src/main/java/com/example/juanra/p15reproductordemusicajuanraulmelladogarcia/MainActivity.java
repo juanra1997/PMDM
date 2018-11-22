@@ -116,6 +116,18 @@ public class MainActivity extends AppCompatActivity {
 
         if(erepetir==1){//No repetir
 
+            repetir.setBackgroundResource(R.drawable.no_repetir);
+            //setLooping cambia la propiedad de bucle de un objeto mediaplayer
+            vectormp[posicion].setLooping(false);
+            erepetir=2;
+            Toast.makeText(this, "Repetir", Toast.LENGTH_SHORT).show();
+        }else{
+
+            repetir.setBackgroundResource(R.drawable.repetir);
+            //setLooping cambia la propiedad de bucle de un objeto mediaplayer
+            vectormp[posicion].setLooping(false);
+            erepetir=1;
+            Toast.makeText(this, "Repetir", Toast.LENGTH_SHORT).show();
         }
     }
 }

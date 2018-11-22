@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/ibGrabar"
+        android:layout_width="128sp"
+        android:layout_height="128sp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/stop_rec"
+        android:onClick="GrabarClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibReproducir"
+        android:layout_width="128sp"
+        android:layout_height="128sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/reproducir"
+        android:onClick="playClick"
+        app:layout_constraintStart_toEndOf="@+id/ibGrabar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="147dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="audioMediaPlayerClick1"
+                app:srcCompat="@drawable/pista1"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="323dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="audioMediaPlayerClick2"
+                app:srcCompat="@drawable/pista2"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="347dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="audioMediaPlayerClick3"
+                app:srcCompat="@drawable/pista3" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="audioMediaPlayerClick4"
+                app:srcCompat="@drawable/pista4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

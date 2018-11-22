@@ -45,6 +45,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="12dp"
+        android:onClick="RepetirClick"
         app:layout_constraintStart_toEndOf="@+id/ibStop"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 

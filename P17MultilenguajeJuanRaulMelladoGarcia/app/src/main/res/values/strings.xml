@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P17MultilenguajeJuanRaulMelladoGarcia</string>
+    <string name="abLogin">Iniciar sesion</string>
+    <string name="setUsuario">Usuario</string>
+    <string name="setContrasenna">Contraseña</string>
+    <string name="stvDerechos">Todos los derechos reservados</string>
+</resources>

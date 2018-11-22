@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">P17MultilanguageJuanRaulMelladoGarcia</string>
+    <string name="abLogin">Log in</string>
+    <string name="setUsuario">User</string>
+    <string name="setContrasenna">Password</string>
+    <string name="stvDerechos">All rights reserved</string>
+</resources>
