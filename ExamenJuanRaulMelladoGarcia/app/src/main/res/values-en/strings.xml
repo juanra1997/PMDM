@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ptUsuario">User</string>
+    <string name="ptContrasenna">Password</string>
+    <string name="tvDerechos">All rights reserved</string>
+    <string name="bIniciar">Log in</string>
+</resources>

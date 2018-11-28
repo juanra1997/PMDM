@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExamenJuanRaulMelladoGarcia</string>
+    <string name="ptUsuario">Usuario</string>
+    <string name="ptContrasenna">Contraseña</string>
+    <string name="tvDerechos">Todos los derechos reservados</string>
+    <string name="bIniciar">Iniciar sesion</string>
+    <string name="bVolver">Volver</string>
+</resources>
