@@ -20,4 +20,7 @@ public class MatrizJuego {
             }
         }
     }
+    public int[][] getMatriz(){
+        return matriz;
+    }
 }
