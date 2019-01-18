@@ -10,6 +10,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -33,7 +34,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     //Distancia minima de actualizacion de la localizacion en metors
 
-    private final long MIN_DIST=5;
+    private final long MIN_DIST=0;
 
     //Objeto que guarda la latitud y la longitud posteriormente se transformará en un punto en el mapa
 
@@ -71,6 +72,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+        localizarGPS();
     }
 
     public void localizarGPS(){
@@ -78,7 +81,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         locationlistener=new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
-
+                latlng = new LatLng(location.getLatitude(), location.getLongitude());
+                if(latlng!=null){
+                    mMap.clear();
+                }
+                mMap.addMarker(new MarkerOptions().position(latlng).title("Mi posicion"));
+                mMap.moveCamera(CameraUpdateFactory.newLatLng(latlng));
             }
 
             @Override
@@ -96,5 +104,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             }
         };
+        //Solicitamos que se actualice frecuentemente, pasandole el servicio de GPS que utilizamos (GPS_PROVIDER), el tiempo minimo de actualizacion (MIN_TIME), la distancia mínima de actualizacion (MIN_DIST) y el listener que nos coge/encuentra la localizacion
+        try {
+            locationmanager.requestLocationUpdates(LocationManager.GPS_PROVIDER, MIN_TIME, MIN_DIST, locationlistener);
+        }catch (SecurityException e){
+            Toast.makeText(this, "Falló", Toast.LENGTH_SHORT).show();
+        }
     }
 }

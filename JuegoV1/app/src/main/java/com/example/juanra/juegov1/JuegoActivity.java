@@ -1,6 +1,7 @@
 package com.example.juanra.juegov1;
 
 import android.app.Service;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
@@ -108,6 +109,7 @@ public class JuegoActivity extends AppCompatActivity {
                 //Creo cada uno de los botones le paso el fondo y le pongo listener e id
                 Celdas celda=new Celdas(this, ++indiceBoton, nElementos, valor, tablero[valor], i, j);
                 celda.setId(indiceBoton);
+                idCeldas[i][j]=indiceBoton;
                 celda.setLayoutParams(new LinearLayout.LayoutParams(0, altura, 1.0f));
                 //Listener a los botones
                 celda.setOnClickListener(new View.OnClickListener() {
@@ -124,7 +126,56 @@ public class JuegoActivity extends AppCompatActivity {
         }
     }
     public void pularCelda(int fila, int columna){
-
+        crono1.start();
+        if(sonar==1){
+            mp.start();
+        }
+        if(vibrar==1){
+            vibService.vibrate(80);
+        }
+        numClicks++;
+        tvClicks.setText(""+numClicks);
+        //Cambio filas
+        for(int i=maximo(0, fila-1); i<=minimo(filas-1, fila+1); i++){
+            cambiar(i, columna);
+        }
+        //Cambio columnas
+        for(int j=maximo(0, columna-1); j<=minimo(columna+1, columnas-1); j++){
+            if(j==columna){
+                continue;
+            }
+            cambiar(fila, j);
+        }
+        checkGanar();
+    }
+    public void checkGanar(){
+        int target=valoresCeldas[0][0];
+        for(int i=0; i<filas; i++){
+            for(int j=0; j<columnas; j++){
+                if(valoresCeldas[i][j]!=target){
+                    return;
+                }
+            }
+        }
+        //Si llegamos aqui hemos ganado, bieeennnnn
+        Intent i=new Intent();
+        //i.putExtra(MainActivity.TOTAL_CLICKS, numClicks);
+        i.putExtra(MainActivity.TOTAL_CLICKS, numClicks);
+        setResult(RESULT_OK, i);
+        finish();
+    }
+    public void cambiar(int f, int c){
+        //Cojo el id de la celda que quiero cambiar
+        int idCelda=idCeldas[f][c];
+        //Recupero la celda
+        Celdas celda=(Celdas)findViewById(idCelda);
+        int nuevoValor=celda.getNuevoFondo();
+        //Actualiza el nuevo valor en el array de valores
+        valoresCeldas[f][c]=nuevoValor;
+        //Cambio el fondo de la celda
+        celda.setBackgroundResource(tablero[nuevoValor]);
+        //Para que lo pinte sin problemas
+        celda.invalidate();
     }
     //----------------------------------------------------------------------------------------------
     public int maximo(int a, int b) {

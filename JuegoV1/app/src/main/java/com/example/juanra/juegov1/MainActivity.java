@@ -11,6 +11,7 @@ import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public final static String VIBRAR="vibrar";
     public final static String SONAR="sonar";
     public final static String NUMEROS="numeros";
-    public final static int TOTAL_CLICKS=0;
+    public final static String TOTAL_CLICKS="totalClicks";
     public final static int REQUEST_CODE=-1;
 
     private SeekBar sbFilas, sbColumnas, sbElementos;
@@ -166,10 +167,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         if(requestCode==REQUEST_CODE && resultCode==RESULT_OK){
-
+            int totalCliks=data.getIntExtra(TOTAL_CLICKS, 0);
+            Toast.makeText(this, String.format("Finalizaste el juego con un total de %d pulsaciones", totalCliks), Toast.LENGTH_SHORT).show();
         }
         if(requestCode==REQUEST_CODE && resultCode==RESULT_CANCELED){
-
+            Toast.makeText(this, "El juego se canceló", Toast.LENGTH_SHORT).show();
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
