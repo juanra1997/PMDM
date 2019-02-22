@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "572158381617",
+    "firebase_url": "https://proyectojuanraul-al-andalus.firebaseio.com",
+    "project_id": "proyectojuanraul-al-andalus",
+    "storage_bucket": "proyectojuanraul-al-andalus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572158381617:android:1b7829f2ac180d28",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572158381617-p7gfq5rcsh6c07mfikpvnfljt2t8hjej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase",
+            "certificate_hash": "9ff47b8c19a9fbd8a5e8ba20e47263359877c3bb"
+          }
+        },
+        {
+          "client_id": "572158381617-aa2k4cek53c2grj3n4tq7o8c1qbbfu76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzN2h4W7ZEbtshYBD2qnQp3aA2Yq28yxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572158381617-aa2k4cek53c2grj3n4tq7o8c1qbbfu76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572158381617:android:d9d7a33ee2705fe6",
+        "android_client_info": {
+          "package_name": "com.example.juanra.p32firebasejuanraulprueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572158381617-nkkg2cqhfh9ufpban7m0hgj7tk504n52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juanra.p32firebasejuanraulprueba",
+            "certificate_hash": "9ff47b8c19a9fbd8a5e8ba20e47263359877c3bb"
+          }
+        },
+        {
+          "client_id": "572158381617-aa2k4cek53c2grj3n4tq7o8c1qbbfu76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzN2h4W7ZEbtshYBD2qnQp3aA2Yq28yxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572158381617-aa2k4cek53c2grj3n4tq7o8c1qbbfu76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

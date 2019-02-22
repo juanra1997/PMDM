@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JuegoAsync</string>
+    <string name="juego_reflejos">JUEGO REFLEJOS</string>
+    <string name="instrucciones">INSTRUCCIONES</string>
+    <string name="explicacion">Aprieta los botones azules antes de que se acabe el tiempo</string>
+    <string name="como_jugar">Cómo jugar</string>
+    <string name="nueva_partida">Opciones de partida</string>
+    <string name="jugar">JUGAR</string>
+    <string name="volver">VOLVER</string>
+    <string name="rbFacil">Fácil</string>
+    <string name="rbDificil">Difícil</string>
+    <string name="rbMedio">Medio</string>
+    <string name="nombre">Nombre</string>
+    <string name="continuar">Continuar Jugando</string>
+    <string name="inicio">Volver</string>
+    <string name="fin">Fin Partida</string>
+    <string name="perder">Has perdido</string>
+    <string name="fase">"Fase %1$s"</string>
+</resources>

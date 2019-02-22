@@ -7,7 +7,7 @@ import android.view.View;
 public class BaseActivity extends AppCompatActivity {
 
     //Para poner la aplicacion en pantalla completa
-    protected void setModoInversivo(){
+    protected void setModoInmersivo(){
         getWindow().getDecorView().setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                 | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION

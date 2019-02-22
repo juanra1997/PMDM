@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "579645829362",
+    "firebase_url": "https://juegopreguntasv2.firebaseio.com",
+    "project_id": "juegopreguntasv2",
+    "storage_bucket": "juegopreguntasv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579645829362:android:2eb7033098c07340",
+        "android_client_info": {
+          "package_name": "com.example.juegopreguntasv2cf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579645829362-ifdciri1sp22tftak4d3h1qokrr0ddn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juegopreguntasv2cf",
+            "certificate_hash": "9ff47b8c19a9fbd8a5e8ba20e47263359877c3bb"
+          }
+        },
+        {
+          "client_id": "579645829362-lnpidli0ttu4lc8rrl2ibhbv7ed761hv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKx7lf2E9RBvKfHUgeyNNSZ-YqcgJSrS8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579645829362-lnpidli0ttu4lc8rrl2ibhbv7ed761hv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
