@@ -18,7 +18,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nfc=NfcAdapter.getDefaultAdapter(this);
+        try {
+
+            nfc = NfcAdapter.getDefaultAdapter(this);
+
+        }catch (Exception e){
+
+        }
 
         if(nfc==null){
             Toast.makeText(this,"Esta aplicacion necesita NFC", Toast.LENGTH_SHORT).show();

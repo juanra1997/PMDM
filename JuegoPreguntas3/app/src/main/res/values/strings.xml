@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JuegoPreguntas3</string>
+    <string name="introduce_tu_pregunta_y_sus_respuestas">INTRODUCE TU PREGUNTA Y SUS RESPUESTAS</string>
+    <string name="grupo">Grupo</string>
+    <string name="crear_preguntas">CREAR PREGUNTAS</string>
+    <string name="revisar_preguntas">REVISAR PREGUNTAS</string>
+    <string name="resp_1">Resp 1</string>
+    <string name="resp_2">Resp 2</string>
+    <string name="resp_3">Resp 3</string>
+    <string name="resp_4">Resp 4</string>
+    <string name="indica_cual_es_la_respuesta_correcta">Indica cual es la respuesta correcta</string>
+    <string name="pregunta">Pregunta:</string>
+    <string name="respuesta_1">Respuesta 1:</string>
+    <string name="respuesta_2">Respuesta 2:</string>
+    <string name="respuesta_3">Respuesta 3:</string>
+    <string name="respuesta_4">Respuesta 4:</string>
+    <string name="autor">Autor:</string>
+    <string name="entrar">Entrar</string>
+    <string name="cargar_pregunta">CARGAR PREGUNTA</string>
+    <string name="modificar">Modificar</string>
+    <string name="crear_juego">CREAR JUEGO</string>
+    <string name="preguntasp">Pregunta</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="cargando">Espera a que se carguen las preguntas</string>
+    <string name="twitter_del_creador">TWITTER DEL CREADOR</string>
+</resources>
