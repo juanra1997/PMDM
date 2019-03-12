@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ASKGAME</string>
+    <string name="introduce_tu_pregunta_y_sus_respuestas">INTRODUCE YOUR QUESTION AND YOUR ANSWERS</string>
+    <string name="grupo">Group</string>
+    <string name="crear_preguntas">CREAR QUESTIONS</string>
+    <string name="revisar_preguntas">REVIEW QUESTIONS</string>
+    <string name="resp_1">Ans 1</string>
+    <string name="resp_2">Ans 2</string>
+    <string name="resp_3">Ans 3</string>
+    <string name="resp_4">Ans 4</string>
+    <string name="indica_cual_es_la_respuesta_correcta">Indicate what is the correct answer</string>
+    <string name="pregunta">Question:</string>
+    <string name="respuesta_1">Answer 1:</string>
+    <string name="respuesta_2">Answer 2:</string>
+    <string name="respuesta_3">Answer 3:</string>
+    <string name="respuesta_4">Answer 4:</string>
+    <string name="autor">Author:</string>
+    <string name="entrar">Get in</string>
+    <string name="cargar_pregunta">LOAD QUESTION</string>
+    <string name="modificar">Modify</string>
+    <string name="crear_juego">MAKE THE GAME</string>
+    <string name="preguntasp">Question</string>
+    <string name="cantidad">QUANTITY</string>
+    <string name="cargando">Wait for the questions</string>
+    <string name="twitter_del_creador">TWITTER OF THE CREATOR</string>
+    <string name="contrasena">Password</string>
+    <string name="info">Info</string>
+    <string name="explicacion">If the group does not exists, it will be created with the introduced password</string>
+</resources>
